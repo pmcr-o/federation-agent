@@ -1,0 +1,11 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "skill-agent",
+  "id": "federation-submission-agent",
+  "parentAgent": "federation-agent",
+  "plugin": "federation",
+  "skill": "validate-submission",
+  "independentSurface": true,
+  "independentChecker": false,
+  "selfNarrationGrantsAuthority": false
+}

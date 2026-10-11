@@ -1,0 +1,17 @@
+{
+  "roundId": "round-001",
+  "seed": "Design one bounded feature.",
+  "contestants": [
+    "orchestrator-alpha-agent",
+    "orchestrator-beta-agent"
+  ],
+  "sharedConstraints": [
+    "same tools",
+    "same deadline"
+  ],
+  "budget": {
+    "maxCandidates": 2,
+    "maxRunsPerContestant": 2,
+    "maxTotalCostUsd": 1.0
+  }
+}

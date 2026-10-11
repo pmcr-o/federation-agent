@@ -1,0 +1,16 @@
+{
+  "name": "federation-agent",
+  "owner": {
+    "name": "pmcr-o"
+  },
+  "metadata": {
+    "description": "Governed orchestrator-federation domain for bounded competition rounds, explicit budgets, independent referees, and evidence-backed winners."
+  },
+  "plugins": [
+    {
+      "name": "federation",
+      "source": "./.pmcro/plugins/federation",
+      "description": "federation capabilities owned by federation-agent"
+    }
+  ]
+}

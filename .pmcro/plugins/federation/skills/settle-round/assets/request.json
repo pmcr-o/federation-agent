@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "federation-referee-agent",
+  "plugin": "federation",
+  "description": "Settle an orchestrator competition only from an independent referee verdict and checked evaluation evidence; emit a winner summary without private chain-of-thought.",
+  "skill": "settle-round"
+}

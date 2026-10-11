@@ -1,0 +1,32 @@
+{
+  "schema": "pmcro.agent-project/v1",
+  "id": "federation-agent",
+  "description": "Governed orchestrator-federation domain for bounded competition rounds, explicit budgets, independent referees, and evidence-backed winners.",
+  "derivedFrom": "A:\\marketplace\\eng\\authoring-federation-agent-001\\plugins\\federation",
+  "template": "agent-skills-template",
+  "canonical": ".pmcro",
+  "projection": ".agents",
+  "hostChain": ".claude/.grok/.cursor/.github -> .agents -> .pmcro",
+  "requiredSkillShape": [
+    "SKILL.md",
+    "agents/",
+    "scripts/",
+    "references/",
+    "assets/",
+    "tests/"
+  ],
+  "autonomousLoop": {
+    "enabled": true,
+    "questionGate": false,
+    "onQuestion": "resolve-from-context-or-halt",
+    "phaseOrder": [
+      "orchestrate",
+      "plan",
+      "make",
+      "check",
+      "reflect"
+    ]
+  },
+  "orchestratorRole": "domain-orchestrator",
+  "agentIsOrchestrator": true
+}

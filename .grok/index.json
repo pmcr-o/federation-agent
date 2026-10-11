@@ -1,0 +1,28 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.index",
+  "agent": "federation-agent",
+  "entries": [
+    {
+      "route": "@federation-agent /federation:create-round",
+      "plugin": "federation",
+      "skill": "create-round",
+      "description": "Create a bounded orchestrator competition round with one seed, shared constraints, explicit contestants, and a fixed budget policy.",
+      "path": ".pmcro/plugins/federation/skills/create-round"
+    },
+    {
+      "route": "@federation-agent /federation:settle-round",
+      "plugin": "federation",
+      "skill": "settle-round",
+      "description": "Settle an orchestrator competition only from an independent referee verdict and checked evaluation evidence; emit a winner summary without private internal reasoning.",
+      "path": ".pmcro/plugins/federation/skills/settle-round"
+    },
+    {
+      "route": "@federation-agent /federation:validate-submission",
+      "plugin": "federation",
+      "skill": "validate-submission",
+      "description": "Validate one orchestrator competition submission against round identity, seed, budget, and evidence requirements without scoring it.",
+      "path": ".pmcro/plugins/federation/skills/validate-submission"
+    }
+  ]
+}

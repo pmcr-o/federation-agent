@@ -1,0 +1,16 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "federation-agent",
+  "owner": "pmcr-o",
+  "description": "Governed orchestrator-federation domain for bounded competition rounds, explicit budgets, independent referees, and evidence-backed winners.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "federation",
+      "source": "./.pmcro/plugins/federation",
+      "description": "federation capabilities owned by federation-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents"
+}

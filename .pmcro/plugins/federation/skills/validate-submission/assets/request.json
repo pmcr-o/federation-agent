@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "federation-submission-agent",
+  "plugin": "federation",
+  "description": "Validate one orchestrator competition submission against round identity, seed, budget, and evidence requirements without scoring it.",
+  "skill": "validate-submission"
+}

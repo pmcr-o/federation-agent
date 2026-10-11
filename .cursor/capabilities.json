@@ -1,0 +1,26 @@
+{
+  "schema": "pmcro.capabilities/v1",
+  "agent": "federation-agent",
+  "executionRule": "registered AND runtime-present AND authorized",
+  "manualParity": {
+    "required": true,
+    "rule": "agent and manual terminal use the same scripts with the same arguments, exit codes, and evidence"
+  },
+  "capabilities": [
+    {
+      "plugin": "federation",
+      "skill": "create-round",
+      "route": "@federation-agent /federation:create-round"
+    },
+    {
+      "plugin": "federation",
+      "skill": "settle-round",
+      "route": "@federation-agent /federation:settle-round"
+    },
+    {
+      "plugin": "federation",
+      "skill": "validate-submission",
+      "route": "@federation-agent /federation:validate-submission"
+    }
+  ]
+}
