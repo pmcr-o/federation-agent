@@ -1,0 +1,6 @@
+{
+  "name": "federation",
+  "version": "0.1.0",
+  "description": "Governed competition among independently addressable orchestrators. Shared seed/bounds, explicit budget, independent referee, evidence-backed winner.",
+  "skills": ["./skills/"]
+}

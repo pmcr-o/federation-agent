@@ -1,0 +1,6 @@
+{
+  "referee": "pmcro-checker-agent",
+  "verdict": "PASS",
+  "winner": "orchestrator-alpha-agent",
+  "winnerSummary": "Best checked outcome under the shared budget."
+}

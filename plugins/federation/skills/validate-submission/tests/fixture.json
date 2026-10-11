@@ -1,0 +1,12 @@
+{
+  "roundId": "round-001",
+  "contestant": "orchestrator-alpha-agent",
+  "seedDigest": "<from-round>",
+  "runId": "alpha-1",
+  "resultRef": "trail:alpha-1",
+  "budgetUsed": {
+    "runs": 1,
+    "costUsd": 0.1
+  },
+  "identityStatement": "I AM orchestrator alpha."
+}

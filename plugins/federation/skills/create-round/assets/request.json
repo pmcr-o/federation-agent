@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "federation-round-agent",
+  "plugin": "federation",
+  "description": "Create a bounded orchestrator competition round with one seed, shared constraints, explicit contestants, and a fixed budget policy.",
+  "skill": "create-round"
+}

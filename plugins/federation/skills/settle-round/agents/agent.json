@@ -1,0 +1,11 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "skill-agent",
+  "id": "federation-referee-agent",
+  "parentAgent": "federation-agent",
+  "plugin": "federation",
+  "skill": "settle-round",
+  "independentSurface": true,
+  "independentChecker": false,
+  "selfNarrationGrantsAuthority": false
+}
