@@ -1,0 +1,17 @@
+{
+  "schema": "pmcro.contestant-request/v1",
+  "sourceIssue": "pmcr-o/pmcro-agent#9",
+  "contestant": {
+    "registeredAgentId": "pmcro-agent",
+    "host": "claude",
+    "role": "recursive-child-I"
+  },
+  "implementationOwner": "federation-agent",
+  "branch": "claude/federation-instance-identity",
+  "blindRound": true,
+  "peerBranch": "grok/federation-instance-identity",
+  "peerReadableBeforeSubmission": false,
+  "authorityRule": "host/model identity grants no authority; inherit-or-narrow only",
+  "completion": "implement, test, CHECK, REFLECT, leave exactly one unexecuted next seed",
+  "mergeAllowed": false
+}
